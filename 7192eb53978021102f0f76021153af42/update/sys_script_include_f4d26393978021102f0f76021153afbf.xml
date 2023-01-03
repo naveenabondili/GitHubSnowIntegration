@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.dum</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>dum</name>
+        <script><![CDATA[var dum = Class.create();
+dum.prototype = {
+    initialize: function() {
+		gs.log("test");
+    },
+
+    type: 'dum'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-03 06:57:45</sys_created_on>
+        <sys_id>f4d26393978021102f0f76021153afbf</sys_id>
+        <sys_name>dum</sys_name>
+        <sys_package display_value="Connectivity App" source="7192eb53978021102f0f76021153af42">7192eb53978021102f0f76021153af42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Connectivity App">7192eb53978021102f0f76021153af42</sys_scope>
+        <sys_update_name>sys_script_include_f4d26393978021102f0f76021153afbf</sys_update_name>
+    </sys_script_include>
+</record_update>
